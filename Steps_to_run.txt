@@ -1,0 +1,17 @@
+Steps to Execute:
+Run the filter.py script by replacing the image with any of the images from DatabaseRaw, and the you can get the required processed can be acquired.
+
+#TO RUN THE BACKEND DJANGO SCRIPT
+1. Make the sub-directory in the directory where the python is installed in the system and name it as the name of project.
+
+2. Make another directory of the same name inside the project directory. This is the app which will run.
+
+3. Copy the files(views.py, urls.py, wsgi.py, settings.py, __init__.py) on the directory created in step 2 and file(manage.py) in the directory created in step 1.
+
+4. Open Command Prompt and type "pip install django"
+
+5. Once django is installed and all the files are saved in respective directories type "python manage.py runserver 127.0.0.1:8055". This will create a local server     running on the current system.
+
+6. Go to the link mentioned(127.0.0.1:8055) in the browser to see the website running on the local host.
+
+7. Enter the details and click on submit to execute.
